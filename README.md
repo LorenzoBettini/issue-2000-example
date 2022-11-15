@@ -4,7 +4,7 @@ A minimal example reproducing https://github.com/eclipse/xtext-core/issues/2000
 After cloning, run
 
 ```
-mvn verify -f io.github.lorenzobettini.tychotestlanguage.parent clean verify -Dmaven.repo.local=$HOME/tmp/maven-repo
+mvn -f io.github.lorenzobettini.tychotestlanguage.parent clean verify -Dmaven.repo.local=$HOME/tmp/maven-repo
 ```
 
 So that it will start from an empty .m2 cache folder.

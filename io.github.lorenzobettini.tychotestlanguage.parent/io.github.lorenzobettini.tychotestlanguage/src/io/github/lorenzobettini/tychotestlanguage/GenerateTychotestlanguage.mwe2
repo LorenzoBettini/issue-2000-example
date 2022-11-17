@@ -12,18 +12,6 @@ Workflow {
 			project = StandardProjectConfig {
 				baseName = "io.github.lorenzobettini.tychotestlanguage"
 				rootPath = rootPath
-				runtimeTest = {
-					enabled = true
-				}
-				eclipsePlugin = {
-					enabled = true
-				}
-				eclipsePluginTest = {
-					enabled = true
-				}
-				web = {
-					enabled = true
-				}
 				createEclipseMetaData = true
 			}
 			code = {

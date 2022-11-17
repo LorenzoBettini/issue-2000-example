@@ -31,6 +31,6 @@ jobs:
         restore-keys: ${{ runner.os }}-m2-
         # hashFiles('**/pom.xml', '**/maven.yml', '**/*.target') might be too much
         # just the .target files are not enough to invalidate the cache
-    - name: Run Tycho POMless Language using our POMs
+    - name: Run Tycho build
       run: mvn clean verify
       working-directory: io.github.lorenzobettini.tychotestlanguage.parent

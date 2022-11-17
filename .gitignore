@@ -14,6 +14,7 @@ logs.zip
 # generated sources
 src-gen/
 xtext-gen/
+xtend-gen/
 
 # excluded in projects when needed
 # xtend-gen/

@@ -312,7 +312,7 @@
 
 	<modules>
 		<module>io.github.lorenzobettini.tychotestlanguage</module>
+		<module>../xtext-mwe2-launch</module>
 	</modules>
-
 
 </project>

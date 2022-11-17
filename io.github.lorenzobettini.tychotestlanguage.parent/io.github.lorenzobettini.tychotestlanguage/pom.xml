@@ -33,9 +33,18 @@
 							<!-- we don't use includePluginDependencies since Tycho 2.4.0
 								handles additional.bundles in build.properties correctly -->
 							<cleanupDaemonThreads>false</cleanupDaemonThreads><!-- see https://bugs.eclipse.org/bugs/show_bug.cgi?id=475098#c3 -->
+							<includePluginDependencies>true</includePluginDependencies>
 						</configuration>
 					</execution>
 				</executions>
+				<dependencies>
+					<dependency>
+						<groupId>org.eclipse.xtext</groupId>
+						<artifactId>xtext-mwe2-launch</artifactId>
+						<version>${xtextVersion}</version>
+						<type>pom</type>
+					</dependency>
+				</dependencies>
 			</plugin>
 			<plugin>
 				<groupId>org.eclipse.xtend</groupId>

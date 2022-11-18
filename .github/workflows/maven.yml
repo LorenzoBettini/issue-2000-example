@@ -37,7 +37,5 @@ jobs:
         # just the .target files are not enough to invalidate the cache
     - name: Run Tycho dependency-tree
       run: mvn org.eclipse.tycho:tycho-p2-plugin:dependency-tree
-    - name: Run Maven dependency-tree
-      run: mvn dependency:tree
     - name: Run Tycho build
       run: mvn clean verify

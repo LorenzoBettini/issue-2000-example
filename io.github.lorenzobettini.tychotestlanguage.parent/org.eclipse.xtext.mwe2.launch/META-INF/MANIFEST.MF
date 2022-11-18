@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Xtext Mwe2 Launch
 Bundle-SymbolicName: org.eclipse.xtext.mwe2.launch
-Bundle-Version: 2.29.0.qualifier
+Bundle-Version: 2.29.0.M3
 Import-Package: org.apache.log4j;version="1.2.19"
 Require-Bundle: org.eclipse.xtext.xtext.generator;visibility:=reexport,
  org.eclipse.emf.mwe2.launch;visibility:=reexport,

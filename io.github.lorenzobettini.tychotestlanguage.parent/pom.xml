@@ -312,6 +312,7 @@
 
 	<modules>
 		<module>io.github.lorenzobettini.tychotestlanguage</module>
+		<module>org.eclipse.xtext.mwe2.launch</module>
 	</modules>
 
 
